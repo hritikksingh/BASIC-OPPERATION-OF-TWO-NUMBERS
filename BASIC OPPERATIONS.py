@@ -1,0 +1,12 @@
+number1=int(input("ENTER FIRST NUMBER "))
+number2=int(input("ENTER SECOND NUMBER "))
+add=number1+number2
+sub=number1-number2
+multiply=number1*number2
+div=number1/number2 #float division
+div2=number1//number2 #integer division
+print("ADDITION OF TWO NUMBERS= " +str(add))
+print("SUBTRACTION OF TWO NUMBERS= "+ str(sub))
+print("MULTIPLICATION OF TWO NUMBERS= "+str(multiply))
+print("DIVISION AS FLOAT= "+ str(div))
+print("DIVISION AS INTEGER= "+ str(div2))
